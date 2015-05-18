@@ -1,0 +1,30 @@
+{
+  "name": "x-weather",
+  "version": "0.0.1",
+  "homepage": "https://github.com/oss6/x-weather",
+  "authors": [
+    "Ossama Edbali <ossedb@gmail.com>"
+  ],
+  "description": "A Polymer element for accessing OpenWeatherMap current API",
+  "main": "x-weather.html",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "weather",
+    "OpenWeatherMap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2",
+    "paper-progress": "Polymer/paper-progress#~0.5.2",
+    "core-ajax": "Polymer/core-ajax#~0.5.2"
+  }
+}

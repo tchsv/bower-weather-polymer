@@ -1,0 +1,30 @@
+{
+  "name": "bower-weather-polymer",
+  "version": "0.0.0",
+  "description": "web components weather app",
+  "main": "main",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "authors": [
+    "Tim Cotton"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "x-weather": "~0.0.1",
+    "polymer": "Polymer/polymer#^0.5",
+    "core-ajax": "Polymer/core-ajax#^0.5"
+  }
+}

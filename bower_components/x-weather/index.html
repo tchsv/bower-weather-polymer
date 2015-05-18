@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>x-weather</title>
+
+    <!-- Import Polyfill, custom element  and font -->
+    <script src="..//webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="src/x-weather.html">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1, h3 {
+            text-align: center;
+        }
+
+        h1, small { font-style: italic; }
+
+        x-weather {
+            margin: 60px auto;
+        }
+    </style>
+</head>
+<body unresolved>
+    <h1><a href="http://github.com/oss6/x-weather">&lt;x-weather&gt;</a></h1>
+    <h3>A Polymer element for accessing OpenWeatherMap current API - <small>check the <a href="http://github.com/oss6/x-weather">repo</a> on GitHub for more info</small></h3>
+
+    <!-- Usage -->
+    <x-weather city="Birmingham" units="metric"></x-weather>
+</body>
+</html>
